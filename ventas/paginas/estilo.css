@@ -1,0 +1,53 @@
+body{
+	font-family: arial, helvetica;
+	background: #e8e8e8;
+	background: url(fondo.png);
+	background-size: 100%;
+}
+
+.menu{
+	list-style: none;
+	padding: 0;
+	background: #092327;
+	width: 90%;
+	max-width: 1000px;
+	margin: auto;
+}
+h2{
+	text-align: center;
+	color: black;
+	font-size: 30px;
+}
+
+.menu li a{
+	text-decoration: none;
+	color: white;
+	padding: 20px;
+	display: block;
+}
+
+.menu li{
+	display: inline-block;
+	text-align: center;
+}
+
+.menu li a:hover{
+	background: #ef8354;
+}
+div.Vehiculos{
+	width: 600px;
+	margin: auto;
+	list-style: none;
+	padding: 20px;
+	box-sizing: border-box;
+	float: left;
+}
+div.Vehiculos img{
+	width: 100%;
+	height: auto;
+}
+div.desc{
+	padding: 5px;
+	text-align: center;
+	font-size: 20px;
+}
